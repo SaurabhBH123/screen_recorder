@@ -2,21 +2,13 @@
   "name": "screen_recorder",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "echo \"No build specified\" && exit 1",
-    "test": "echo \"No test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SaurabhBH123/screen_recorder.git"
-  },
+  "keywords": [],
   "author": "",
-  "bugs": {
-    "url": "https://github.com/SaurabhBH123/screen_recorder/issues"
-  },
-  "homepage": "https://github.com/SaurabhBH123/screen_recorder#readme",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
